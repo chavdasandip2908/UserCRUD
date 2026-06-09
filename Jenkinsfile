@@ -24,7 +24,7 @@ pipeline {
                 bat '''
                 docker run -d ^
                 --name my-node-container ^
-                -p 3001:3001 ^
+                -p 3000:3000 ^
                 my-node-app
                 '''
             }
