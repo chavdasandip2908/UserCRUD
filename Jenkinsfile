@@ -5,19 +5,19 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'echo Build Docker Image stage completed'
+                echo 'Build Docker Image stage '
             }
         }
 
         stage('Deploy Container') {
             steps {
-                bat 'echo Deploy Container stage completed'
+                echo 'Deploy Container stage '
             }
         }
 
         stage('Run Container') {
             steps {
-                bat 'echo Run Container stage completed'
+                echo 'Run Container stage '
             }
         }
     }
